@@ -3,7 +3,8 @@ package br.com.esof.exerciciogit.VO;
 public class Cliente {
 	
 	private String nome;
-
+	private Integer id;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -12,6 +13,12 @@ public class Cliente {
 		this.nome = nome;
 	}
 	
+	public Integer getId() {
+		return id;
+	}
 	
-
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	
 }
